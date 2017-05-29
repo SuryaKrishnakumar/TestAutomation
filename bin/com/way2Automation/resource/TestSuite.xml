@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestWay2Automation">
+     <test name="testValidLogin">
+        <parameter name="email" value="way2test2@gmail.com" />
+        <parameter name="passwd" value="testpuppy3" />
+        <classes>
+            <class name="com.way2Automation.test.TestLogin">
+                <methods>
+                    <include name="testLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+      <!-- <test name="testInvalidLogin">
+        <parameter name="email" value="way2test2@gmail.com" />
+        <parameter name="passwd" value="testpuppy2" />
+        <classes>
+            <class name="com.way2Automation.test.TestLogin">
+                <methods>
+                    <include name="testLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test> -->
+</suite>
