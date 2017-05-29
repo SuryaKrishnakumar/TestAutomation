@@ -20,6 +20,8 @@ public interface TestConstants {
 	
 	public static final String FIELD_ACCOUNT = "account";
 	
+	public static final String FIELD_USER_NAME = "Test User";
+	
 	// X-path
 	
 	public static final String XPATH_SUBMIT = "//*[@type= 'submit']";
