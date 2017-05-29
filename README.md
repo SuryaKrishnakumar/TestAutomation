@@ -1,3 +1,3 @@
 # TestAutomation
 
-The object of this proect is to test "way2automation.com" usnig Selenium WebDriver and TestNG.
+The object of this proect is to test "automationpractise.com" usnig Selenium WebDriver and TestNG.
