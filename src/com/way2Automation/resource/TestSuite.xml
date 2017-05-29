@@ -2,7 +2,7 @@
 <suite name="TestWay2Automation">
      <test name="testValidLogin">
         <parameter name="email" value="way2test2@gmail.com" />
-        <parameter name="passwd" value="******" />
+        <parameter name="passwd" value="automation" />
         <classes>
             <class name="com.way2Automation.test.TestLogin">
                 <methods>
@@ -11,15 +11,4 @@
             </class>
         </classes>
     </test>
-      <!-- <test name="testInvalidLogin">
-        <parameter name="email" value="way2test2@gmail.com" />
-        <parameter name="passwd" value="******" />
-        <classes>
-            <class name="com.way2Automation.test.TestLogin">
-                <methods>
-                    <include name="testLogin" />
-                </methods>
-            </class>
-        </classes>
-    </test> -->
 </suite>

@@ -23,11 +23,10 @@ public class TestFixture {
 	public void invokeBrowser() {
 		try {
 			chromeDriver.manage().deleteAllCookies();
-//			chromeDriver.manage().window().maximize();
+			chromeDriver.manage().window().maximize();
 			chromeDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			chromeDriver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
 			chromeDriver.get(TestConstants.DOMAIN);
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -42,5 +41,4 @@ public class TestFixture {
 		String driverPath =  basePath + TestConstants.CHROME_DRIVER_PATH;
 		return driverPath;
 	}
-
 }
