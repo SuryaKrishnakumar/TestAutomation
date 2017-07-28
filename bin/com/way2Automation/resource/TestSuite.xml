@@ -2,7 +2,8 @@
 <suite name="TestWay2Automation">
      <test name="testValidLogin">
         <parameter name="email" value="way2test2@gmail.com" />
-        <parameter name="passwd" value="testpuppy3" />
+        <parameter name="passwd" value="automation" />
+         <parameter name="TCID" value="1" />
         <classes>
             <class name="com.way2Automation.test.TestLogin">
                 <methods>
@@ -11,9 +12,10 @@
             </class>
         </classes>
     </test>
-      <!-- <test name="testInvalidLogin">
-        <parameter name="email" value="way2test2@gmail.com" />
-        <parameter name="passwd" value="testpuppy2" />
+    <test name="testInvalidLogin1">
+        <parameter name="email" value="way2" />
+        <parameter name="passwd" value="automation" />
+         <parameter name="TCID" value="2" />
         <classes>
             <class name="com.way2Automation.test.TestLogin">
                 <methods>
@@ -21,5 +23,41 @@
                 </methods>
             </class>
         </classes>
-    </test> -->
+    </test>
+    <test name="testInvalidLogin2">
+        <parameter name="email" value="way2" />
+        <parameter name="passwd" value="" />
+         <parameter name="TCID" value="3" />
+        <classes>
+            <class name="com.way2Automation.test.TestLogin">
+                <methods>
+                    <include name="testLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="testInvalidLogin3">
+        <parameter name="email" value="" />
+        <parameter name="passwd" value="automation" />
+         <parameter name="TCID" value="4" />
+        <classes>
+            <class name="com.way2Automation.test.TestLogin">
+                <methods>
+                    <include name="testLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+     <test name="testInvalidLogin4">
+        <parameter name="email" value="way2test2@gmail.com" />
+        <parameter name="passwd" value="auto" />
+         <parameter name="TCID" value="5" />
+        <classes>
+            <class name="com.way2Automation.test.TestLogin">
+                <methods>
+                    <include name="testLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>
