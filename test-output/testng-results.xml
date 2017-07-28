@@ -1,17 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2835" started-at="2017-05-29T04:31:00Z" finished-at="2017-05-29T04:31:03Z">
+  <suite name="TestWay2Automation" duration-ms="60567" started-at="2017-07-27T03:22:29Z" finished-at="2017-07-27T03:23:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2835" started-at="2017-05-29T04:31:00Z" finished-at="2017-05-29T04:31:03Z">
+    <test name="testValidLogin" duration-ms="11367" started-at="2017-07-27T03:22:29Z" finished-at="2017-07-27T03:22:40Z">
       <class name="com.way2Automation.test.TestLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.way2Automation.test.TestLogin@273e7444]" name="setup" is-config="true" duration-ms="2827" started-at="2017-05-29T00:31:00Z" finished-at="2017-05-29T00:31:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.way2Automation.test.TestLogin@73e9cf30]" name="setup" is-config="true" duration-ms="7430" started-at="2017-07-26T23:22:29Z" finished-at="2017-07-26T23:22:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2Automation.test.TestLogin@73e9cf30]" name="testLogin" duration-ms="3828" started-at="2017-07-26T23:22:36Z" finished-at="2017-07-26T23:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[way2test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.way2Automation.test.TestLogin@73e9cf30]" name="tearDown" is-config="true" duration-ms="82" started-at="2017-07-26T23:22:40Z" finished-at="2017-07-26T23:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.way2Automation.test.TestLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- testValidLogin -->
+    <test name="testInvalidLogin1" duration-ms="17662" started-at="2017-07-27T03:22:40Z" finished-at="2017-07-27T03:22:58Z">
+      <class name="com.way2Automation.test.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.way2Automation.test.TestLogin@4d154ccd]" name="setup" is-config="true" duration-ms="11986" started-at="2017-07-26T23:22:40Z" finished-at="2017-07-26T23:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2Automation.test.TestLogin@4d154ccd]" name="testLogin" duration-ms="3577" started-at="2017-07-26T23:22:52Z" finished-at="2017-07-26T23:22:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[way2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.way2Automation.test.TestLogin@4d154ccd]" name="tearDown" is-config="true" duration-ms="2095" started-at="2017-07-26T23:22:56Z" finished-at="2017-07-26T23:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.way2Automation.test.TestLogin -->
+    </test> <!-- testInvalidLogin1 -->
+    <test name="testInvalidLogin2" duration-ms="12117" started-at="2017-07-27T03:22:58Z" finished-at="2017-07-27T03:23:10Z">
+      <class name="com.way2Automation.test.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.way2Automation.test.TestLogin@e350b40]" name="setup" is-config="true" duration-ms="8639" started-at="2017-07-26T23:22:58Z" finished-at="2017-07-26T23:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2Automation.test.TestLogin@e350b40]" name="testLogin" duration-ms="3405" started-at="2017-07-26T23:23:07Z" finished-at="2017-07-26T23:23:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[way2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.way2Automation.test.TestLogin@e350b40]" name="tearDown" is-config="true" duration-ms="69" started-at="2017-07-26T23:23:10Z" finished-at="2017-07-26T23:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.way2Automation.test.TestLogin -->
+    </test> <!-- testInvalidLogin2 -->
+    <test name="testInvalidLogin3" duration-ms="9421" started-at="2017-07-27T03:23:10Z" finished-at="2017-07-27T03:23:20Z">
+      <class name="com.way2Automation.test.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.way2Automation.test.TestLogin@6c1a5b54]" name="setup" is-config="true" duration-ms="6152" started-at="2017-07-26T23:23:10Z" finished-at="2017-07-26T23:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2Automation.test.TestLogin@6c1a5b54]" name="testLogin" duration-ms="3190" started-at="2017-07-26T23:23:16Z" finished-at="2017-07-26T23:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.way2Automation.test.TestLogin@6c1a5b54]" name="tearDown" is-config="true" duration-ms="76" started-at="2017-07-26T23:23:20Z" finished-at="2017-07-26T23:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.way2Automation.test.TestLogin -->
+    </test> <!-- testInvalidLogin3 -->
+    <test name="testInvalidLogin4" duration-ms="9912" started-at="2017-07-27T03:23:20Z" finished-at="2017-07-27T03:23:30Z">
+      <class name="com.way2Automation.test.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.way2Automation.test.TestLogin@55a147cc]" name="setup" is-config="true" duration-ms="6402" started-at="2017-07-26T23:23:20Z" finished-at="2017-07-26T23:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2Automation.test.TestLogin@55a147cc]" name="testLogin" duration-ms="3430" started-at="2017-07-26T23:23:26Z" finished-at="2017-07-26T23:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[way2test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[auto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.way2Automation.test.TestLogin@55a147cc]" name="tearDown" is-config="true" duration-ms="76" started-at="2017-07-26T23:23:29Z" finished-at="2017-07-26T23:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.way2Automation.test.TestLogin -->
+    </test> <!-- testInvalidLogin4 -->
+  </suite> <!-- TestWay2Automation -->
 </testng-results>
